@@ -8,5 +8,9 @@ class LorealSpider(Spider):
 
 	allowed_urls = 'https://www.lorealparisusa.com/'
 
-	
+
+	def parse(self, repsonse):
+		num_pages_
+
+
 

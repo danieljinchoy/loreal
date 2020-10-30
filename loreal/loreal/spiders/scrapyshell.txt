@@ -1,0 +1,9 @@
+scrapy shell -s USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" "https://www.lorealparisusa.com/products/hair-care/shop-all-products.aspx?size=21&page=1"
+
+
+
+scrapy shell -s USER_AGENT="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" "https://www.lorealparisusa.com/products/hair-care/shop-all-products.aspx?size=21&page=1"
+
+
+
+response.xpath('//div[@class="results-pagination"]/a').extract()
